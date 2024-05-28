@@ -2,30 +2,131 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang chu</title>
-    <link rel="stylesheet" href="homestyle.css">
-
+    <link rel="stylesheet" href="style_home.css">
+    <link rel="stylesheet" href="slide.css">
+    <title>INTERIOR WEBSITE</title>
 </head>
 <body>
-    <div id="wrapper">
-        <div class="headline">
-            <h3>Best seller</h3>
+    <!--<header>
+        <div class="logo">
+            <img src = "icons/gg.jpg" height = 70>
         </div>
+
+        <nav>            
+            <button>Home</button>
+            <button>Products</button>
+            <button>Collections</button>
+            <button>Contact us</button>          
+        </nav>
+        <div class="sign">
+            <button>Sign in</button>
+            <button>
+                <img src = "icons\transport.svg" width = 60px>
+            </button>
+        </div>
+    </header>-->
+
+
+
+    <div id="wrapper">
+        <div id="header">
+          <nav class="container">
+            <a href="" id="logo">
+              <img src="images/ss.png" alt="">
+            </a>
+            <ul id="main-menu">
+              <li><a href="">Home</a></li>
+              <li><a href="">Products</a>
+                <ul class="sub-menu">
+                    <li><a href="">Accessorie</a></li>
+                    <li><a href="">Chandeliers</a></li>
+                    <li><a href="">Table&Chairs</a></li>
+                    <li><a href="">Plants</a></li>
+                    <li><a href="">Crystal artifact</a></li>  
+                    <li><a href="">Outlets</a></li>                
+                </ul>
+              </li>
+              <li><a href="">Collections</a></li>
+              <li><a href="">Contact us</a></li>        
+            </ul>
+    
+          </nav>
+        </div>
+      </div>
+
+
+
+
+    <div id="main">
+        <div class="slider">
+            <div class="list">
+                <div class="item">
+                    <img src="picture/1.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="picture/2.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="picture/3.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="picture/4.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="picture/5.png" alt="">
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="prev"><</button>
+                <button id="next">></button>
+            </div>
+            <ul class="dots">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+        <div class="container">
+            
+            <button>
+                <div class="section">
+                    <img src="picture/en1.jpg" alt="Café & Lounge">
+                    <h2>Café & Lounge</h2>
+                </div>
+            </button>
+            
+            <button>
+                <div class="section">
+                    <img src="picture/en2.jpg" alt="Studio setup">
+                    <h2>Studio setup</h2>
+                </div>
+            </button>
+            
+            <button>
+                <div class="section">
+                    <img src = "picture/en3.jpg" alt = "See more">
+                    <h2>See more</h2>
+                </div>
+            </button>
+        </div>
+        <div class = "new">NEW RELEASE</div>
         <ul class="products">
             <li>
                 <div class="product-item">
                     <div class="product-top">
-                        <a href="" class="profuct-img">
-                            <img src="image/anh1.jpeg" alt="">
+                        <a href="" class="product-img">
+                            <img src="picture/anh1.jpeg" alt="">
                         </a>
                         <a href="" class="buy-now">Buy now</a>
                     </div>
                     <div class="product-inf">
                         <a href="" class="product-cat">Sofa</a>
-                        <a href="" class="product-name">Ghe boc da cao cap</a>
-                        <div class="product-price">$99999</div>
+                        <a href="" class="product-name">TABLE DOUBLE</a>
+                        <div class="product-price">$299</div>
                     </div>
 
                 </div>
@@ -33,16 +134,16 @@
             <li>
                 <div class="product-item">
                     <div class="product-top">
-                        <a href="" class="profuct-img">
-                            <img src="image/anh2.jpeg" alt="">
+                        <a href="" class="product-img">
+                            <img src="picture/anh2.jpeg" alt="">
                         </a>
                         <a href="" class="buy-now">Buy now</a>
 
                     </div>
                     <div class="product-inf">
-                        <a href="" class="product-cat">Noi that</a>
-                        <a href="" class="product-name">Ghe boc da cao cap</a>
-                        <div class="product-price">$99999</div>
+                        <a href="" class="product-cat">Sofa</a>
+                        <a href="" class="product-name">Double Chair</a>
+                        <div class="product-price">$99</div>
                     </div>
                     
                 </div>
@@ -50,16 +151,16 @@
             <li>
                 <div class="product-item">
                     <div class="product-top">
-                        <a href="" class="profuct-img">
-                            <img src="image/anh3.webp" alt="">
+                        <a href="" class="product-img">
+                            <img src="picture/anh3.webp" alt="">
                         </a>
                         <a href="" class="buy-now">Buy now</a>
 
                     </div>
                     <div class="product-inf">
-                        <a href="" class="product-cat">Noi that</a>
-                        <a href="" class="product-name">Ghe boc da cao cap</a>
-                        <div class="product-price">$99999</div>
+                        <a href="" class="product-cat">Sofa</a>
+                        <a href="" class="product-name">Lamp 32XS</a>
+                        <div class="product-price">$939</div>
                     </div>
                     
                 </div>
@@ -67,92 +168,165 @@
             <li>
                 <div class="product-item">
                     <div class="product-top">
-                        <a href="" class="profuct-img">
-                            <img src="image/anh4.jpeg" alt="">
+                        <a href="" class="product-img">
+                            <img src="picture/anh5.jpeg" alt="">
                         </a>
                         <a href="" class="buy-now">Buy now</a>
 
                     </div>
                     <div class="product-inf">
-                        <a href="" class="product-cat">Noi that</a>
-                        <a href="" class="product-name">Ghe boc da cao cap</a>
-                        <div class="product-price">$99999</div>
+                        <a href="" class="product-cat">Sofa</a>
+                        <a href="" class="product-name">WIG</a>
+                        <div class="product-price">$9</div>
                     </div>
                     
                 </div>
             </li>
-            <li>
-                <div class="product-item">
-                    <div class="product-top">
-                        <a href="" class="profuct-img">
-                            <img src="image/anh5.jpeg" alt="">
-                        </a>
-                        <a href="" class="buy-now">Buy now</a>
-
-                    </div>
-                    <div class="product-inf">
-                        <a href="" class="product-cat">Noi that</a>
-                        <a href="" class="product-name">Ghe boc da cao cap</a>
-                        <div class="product-price">$99999</div>
-                    </div>
-                    
-                </div>
-            </li>
-            <li>
-                <div class="product-item">
-                    <div class="product-top">
-                        <a href="" class="profuct-img">
-                            <img src="image/anh6.jpeg" alt="">
-                        </a>
-                        <a href="" class="buy-now">Buy now</a>
-
-                    </div>
-                    <div class="product-inf">
-                        <a href="" class="product-cat">Noi that</a>
-                        <a href="" class="product-name">Ghe boc da cao cap</a>
-                        <div class="product-price">$99999</div>
-                    </div>
-                    
-                </div>
-            </li>
-            <li>
-                <div class="product-item">
-                    <div class="product-top">
-                        <a href="" class="profuct-img">
-                            <img src="image/anh7.jpeg" alt="">
-                        </a>
-                        <a href="" class="buy-now">Buy now</a>
-
-                    </div>
-                    <div class="product-inf">
-                        <a href="" class="product-cat">Noi that</a>
-                        <a href="" class="product-name">Ghe boc da cao cap</a>
-                        <div class="product-price">$99999</div>
-                    </div>
-                    
-                </div>
-            </li>
-            <li>
-                <div class="product-item">
-                    <div class="product-top">
-                        <a href="" class="profuct-img">
-                            <img src="image/anh8.jpeg" alt="">
-                        </a>
-                        <a href="" class="buy-now">Buy now</a>
-
-                    </div>
-                    <div class="product-inf">
-                        <a href="" class="product-cat">Noi that</a>
-                        <a href="" class="product-name">Ghe boc da cao cap</a>
-                        <div class="product-price">$99999</div>
-                    </div>
-                    
-                </div>
-            </li>
-            
         </ul>
-            
- 
+
+        <ul class="products">
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-img">
+                            <img src="picture/anh1.jpeg" alt="">
+                        </a>
+                        <a href="" class="buy-now">Buy now</a>
+                    </div>
+                    <div class="product-inf">
+                        <a href="" class="product-cat">Sofa</a>
+                        <a href="" class="product-name">TABLE DOUBLE</a>
+                        <div class="product-price">$299</div>
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-img">
+                            <img src="picture/anh5.jpeg" alt="">
+                        </a>
+                        <a href="" class="buy-now">Buy now</a>
+
+                    </div>
+                    <div class="product-inf">
+                        <a href="" class="product-cat">Sofa</a>
+                        <a href="" class="product-name">Double Chair</a>
+                        <div class="product-price">$99</div>
+                    </div>
+                    
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-img">
+                            <img src="picture/anh4.jpeg" alt="">
+                        </a>
+                        <a href="" class="buy-now">Buy now</a>
+
+                    </div>
+                    <div class="product-inf">
+                        <a href="" class="product-cat">Sofa</a>
+                        <a href="" class="product-name">Lamp 32XS</a>
+                        <div class="product-price">$939</div>
+                    </div>
+                    
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-img">
+                            <img src="picture/anh2.jpeg" alt="">
+                        </a>
+                        <a href="" class="buy-now">Buy now</a>
+
+                    </div>
+                    <div class="product-inf">
+                        <a href="" class="product-cat">Sofa</a>
+                        <a href="" class="product-name">WIG</a>
+                        <div class="product-price">$9</div>
+                    </div>
+                    
+                </div>
+            </li>
+        </ul>
     </div>
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="row">
+            <div class="col">
+                <h3>Home</h3>
+            </div>
+            <div class="col">
+                <h3>Products</h3>
+                <ul>
+                   <li><a href="">Accessorie</a></li>
+                   <li><a href="">Chandeliers</a></li>
+                   <li><a href="">Table&Chairs</a></li>
+                   <li><a href="">Plants</a></li>
+                   <li><a href="">Crystal artifact</a></li>
+                   <li><a href="">Outlets</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Collection</h3>
+                <ul>
+                   <li><a href="">Workspace</a></li>
+                   <li><a href="">Cozy bedroom</a></li>
+                   <li><a href="">Western restaurant</a></li>
+                   <li><a href="">Gothic</a></li>
+                   <li><a href="">Back to nature</a></li>
+                   <li><a href="">Futuristic</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Contact Us</h3>
+                <ul>
+                   <li><a href="">Customer policy</a></li>
+                   <li><a href="">Delivery & Packaging</a></li>
+                   <li><a href="">Western restaurant</a></li>
+                   <li><a href="">Become a reseller</a></li>              
+                </ul>
+            </div>
+            <div class="footer-widget">            
+                <h3>Đăng ký nhận tin</h3>
+                <p>Nhận thông tin sản phẩm mới nhất, tin khuyến mãi và nhiều hơn nữa.</p>
+                <div class="email-input">
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                    <button type="submit">Enter</button>
+                </div> 
+                <div class="footer-payment">
+                    <ul class="list-payment">
+                        <li class="item">
+                            <img src="/picture/pay1.jpg" alt="">
+                        </li>
+                        <li class="item">
+                            <img src="/picture/pay2.jpg" alt="">
+                        </li>
+                        <li class="item">
+                            <img src="/picture/pay3.jpg" alt="">
+                        </li>
+                        <li class="item">
+                            <img src="/picture/pay4.jpg" alt="">
+                        </li>
+                        <li class="item">
+                            <img src="/picture/pay5.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>                   
+            </div>
+        </div>
+    </footer>
+    <script src="slide.js"></script>
 </body>
 </html>
