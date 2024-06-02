@@ -7,25 +7,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src = "/picture/logo.png" height = 80>
-        </div>
 
-        <nav>
-            <button>Home</button>
-            <button>Products</button>
-            <button>Collections</button>
-            <button>Contact us</button>
-        </nav>
-
-        <div class="sign">
-            <button>Sign in</button>
-            <button>
-                <img src = "/picture/transport.svg" width = 60px>
-            </button>
+    <div id="wrapper">
+        <div id="header">
+          <nav class="container">
+            <a href="" id="logo">
+              <img src="picture/logo.png" alt="">
+            </a>
+            <ul id="main-menu">
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="">Products</a>
+                <ul class="sub-menu">
+                    <li><a href="">Accessorie</a></li>
+                    <li><a href="">Chandeliers</a></li>
+                    <li><a href="">Table&Chairs</a></li>
+                    <li><a href="">Plants</a></li>
+                    <li><a href="">Crystal artifact</a></li>  
+                    <li><a href="">Outlets</a></li>                
+                </ul>
+              </li>
+              <li><a href="./Colection.html">Collections</a></li>
+              <li><a href="">Contact us</a></li>        
+            </ul>
+    
+          </nav>
         </div>
-    </header>
+      </div>
+
+
     <div class="wrapper">
         
         <div class="gallery">
@@ -83,7 +92,7 @@
 
     <script> </script>
 
-    <footer>
+   <footer>
         <div class="row">
             <div class="col">
                 <h3>Home</h3>
@@ -119,17 +128,32 @@
                    <li><a href="">Become a reseller</a></li>              
                 </ul>
             </div>
-            <div class="col1">            
-                <div class="Signinout">
-                    <a href="" class="">Sign in</a>
-                    <a href="" class="">Sign out</a>
-                </div>
-                <div class="Signupto">
-                    <p>Sign up to get the latest hot deals</p></div>
+            <div class="footer-widget">            
+                <h3>Đăng ký nhận tin</h3>
+                <p>Nhận thông tin sản phẩm mới nhất, tin khuyến mãi và nhiều hơn nữa.</p>
                 <div class="email-input">
                     <input type="email" id="email" name="email" placeholder="Enter your email">
                     <button type="submit">Enter</button>
-                </div>    
+                </div> 
+                <div class="footer-payment">
+                    <ul class="list-payment">
+                        <li class="item">
+                            <img src="/picture/pay1.jpg" alt="">
+                        </li>
+                        <li class="item">
+                            <img src="/picture/pay2.jpg" alt="">
+                        </li>
+                        <li class="item">
+                            <img src="/picture/pay3.jpg" alt="">
+                        </li>
+                        <li class="item">
+                            <img src="/picture/pay4.jpg" alt="">
+                        </li>
+                        <li class="item">
+                            <img src="/picture/pay5.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>                   
             </div>
         </div>
     </footer>
