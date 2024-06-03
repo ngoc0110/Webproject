@@ -66,13 +66,14 @@ body {
 .new {
     font-size: 32px;
     padding: 10px 20px;
-    background-color: #00A699;
+    background-color: #B99470;
     color:#fff;
     margin-top: 8px;
     margin-bottom: 8px;
     width: 300px;
     text-align: center;
     font-family: initial;
+    border-radius: 40px;
 }
 body {
     font-size: 14px;
@@ -130,7 +131,7 @@ ul.products li .product-top a.buy-now {
     text-decoration: none;
     text-align: center;
     display: block;
-    background-color: #00A699;
+    background-color: #B99470;
     color: #fff;
     padding: 10px 0;
     position: absolute;
@@ -253,7 +254,7 @@ footer{
 
 .email-input button {
     padding: 10px 20px; /* Khoảng cách nội dung với viền */
-    background-color: #00A699; /* Màu nền của button */
+    background-color: #B99470; /* Màu nền của button */
     border: none; /* Không có viền */
     border-radius: 10px; /* Bo tròn góc */
     color: #fff; /* Màu chữ */
@@ -363,7 +364,10 @@ nav{
     border: none;
 }
 #main-menu ul li:hover a{
-    color: #00A699;
+    color: #eef8ff;
 }
+#main-menu li:hover a{
+    color:#000;
+};
 
 /*---------------------------------------------*/
