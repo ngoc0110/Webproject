@@ -9,33 +9,33 @@ body {
 
 
 
-/* Định kiểu cho phần container */
+
 .container {
-    display: flex; /* Sử dụng flexbox để sắp xếp các phần tử con */
-    justify-content: space-around; /* Sắp xếp đều các phần tử trong container */
-    align-items: center; /* Căn giữa các phần tử theo chiều dọc */
-    gap: 20px; /* Khoảng cách giữa các phần tử con */
-    padding: 20px; /* Khoảng cách giữa container và các phần tử con */
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    gap: 20px; 
+    padding: 20px; 
 }
 
-/* Định kiểu cho các nút trong container */
+
 .container button {
-    border: none; /* Loại bỏ viền của nút */
-    padding: 0; /* Loại bỏ padding của nút */
+    border: none; 
+    padding: 0; 
 }
 
 .container .section {
-    width: 300px; /* Đặt chiều rộng cố định cho mỗi section */
-    height: 300px; /* Đặt chiều cao cố định cho mỗi section */
-    display: flex; /* Sử dụng flexbox để căn chỉnh nội dung */
-    flex-direction: column; /* Sắp xếp nội dung theo cột */
-    align-items: center; /* Căn giữa nội dung theo chiều ngang */
-    justify-content: center; /* Căn giữa nội dung theo chiều dọc */
-    text-align: center; /* Căn giữa văn bản */
-    background-color: white; /* Màu nền cho mỗi section */
-    border-radius: 10px; /* Làm tròn các góc */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ */
-    transition: transform 0.3s ease; /* Hiệu ứng chuyển đổi kích thước khi di chuột qua */
+    width: 300px; 
+    height: 300px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    background-color: white; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
 }
 
 
@@ -239,27 +239,27 @@ footer{
 .email-input {
     display: flex;
     align-items: center;
-    width: 300px; /* Độ rộng của thanh nhập */
+    width: 300px; 
 }
 
 .email-input input[type="email"] {
-    flex: 1; /* Mở rộng input để điền vào phần còn lại của không gian */
-    padding: 10px; /* Khoảng cách nội dung với viền */
-    border: none; /* Viền */
-    border-radius: 1px; /* Bo tròn góc */
-    font-size: 16px; /* Kích thước chữ */
-    margin-right: 5px; /* Khoảng cách với button */
+    flex: 1; 
+    padding: 10px; 
+    border: none; 
+    border-radius: 1px; 
+    font-size: 16px; 
+    margin-right: 5px; 
     border-radius: 10px;
 }
 
 .email-input button {
-    padding: 10px 20px; /* Khoảng cách nội dung với viền */
-    background-color: #B99470; /* Màu nền của button */
-    border: none; /* Không có viền */
-    border-radius: 10px; /* Bo tròn góc */
-    color: #fff; /* Màu chữ */
-    font-size: 16px; /* Kích thước chữ */
-    cursor: pointer; /* Con trỏ khi di chuột vào */
+    padding: 10px 20px; 
+    background-color: #B99470; 
+    border: none; 
+    border-radius: 10px; 
+    color: #fff; 
+    font-size: 16px; 
+    cursor: pointer; 
 }
 .footer-widget h3{
     border: none;
