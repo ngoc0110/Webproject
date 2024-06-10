@@ -371,10 +371,10 @@ nav{
     border: none;
 }
 #main-menu ul li:hover a{
-    color: #eef8ff;
+    color: #fff;
 }
 #main-menu li:hover a{
-    color:#000;
+    color:#B99470;
 };
 
 /*---------------------------------------------*/

@@ -160,7 +160,7 @@ ul.products li .product-inf a.product-cat {
 
 }
 ul.products li .product-inf a.product-name {
-    color: #00A699;
+    color: #B99470;
     padding: 3px 0;
 
 }
@@ -365,8 +365,8 @@ nav{
     border: none;
 }
 #main-menu ul li:hover a{
-    color: #eef8ff;
+    color: #fff;
 }
 #main-menu li:hover a{
-    color:#000;
+    color:#B99470;
 };

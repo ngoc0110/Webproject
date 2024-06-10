@@ -129,7 +129,7 @@ ul.products li .product-top a.buy-now {
     text-decoration: none;
     text-align: center;
     display: block;
-    background-color: #00A699;
+    background-color: #B99470;
     color: #fff;
     padding: 10px 0;
     position: absolute;
@@ -157,7 +157,7 @@ ul.products li .product-inf a.product-cat {
 
 }
 ul.products li .product-inf a.product-name {
-    color: #00A699;
+    color: #B99470;
     padding: 3px 0;
 
 }
@@ -252,7 +252,7 @@ footer{
 
 .email-input button {
     padding: 10px 20px; 
-    background-color: #00A699;
+    background-color: #B99470;
     border: none; 
     border-radius: 10px; 
     color: #fff; 
@@ -362,7 +362,10 @@ nav{
     border: none;
 }
 #main-menu ul li:hover a{
-    color: #00A699;
+    color: #fff;
+}
+#main-menu li:hover a{
+    color: #B99470;
 }
 
 /*---------------------------------------------*/

@@ -131,7 +131,7 @@ ul.products li .product-top a.buy-now {
     text-decoration: none;
     text-align: center;
     display: block;
-    background-color: #00A699;
+    background-color: #B99470;
     color: #fff;
     padding: 10px 0;
     position: absolute;
@@ -159,12 +159,12 @@ ul.products li .product-inf a.product-cat {
 
 }
 ul.products li .product-inf a.product-name {
-    color: #00A699;
+    color: #B99470;
     padding: 3px 0;
 
 }
 ul.products li .product-inf .product-price {
-    color: #00A699;
+    color: #B99470;
     padding: 2px 0;
     font-weight: 600;
 
@@ -358,16 +358,16 @@ nav{
     border-bottom: 1px solid #434343;
 }
 #main-menu ul.sub-menu li:hover a{
-    border-bottom: 1px solid #00A699; 
+    border-bottom: 1px solid #B99470; 
 }
 #main-menu ul.sub-menu li:last-child a{
     border: none;
 }
 #main-menu ul li:hover a{
-    color: #eef8ff;
+    color: #fff;
 }
 #main-menu li:hover a{
-    color:#00A699;
+    color:#B99470;
 };
 
 
