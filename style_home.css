@@ -131,7 +131,7 @@ ul.products li .product-top a.buy-now {
     text-decoration: none;
     text-align: center;
     display: block;
-    background-color: #B99470;
+    background-color: #00A699;
     color: #fff;
     padding: 10px 0;
     position: absolute;
@@ -164,7 +164,7 @@ ul.products li .product-inf a.product-name {
 
 }
 ul.products li .product-inf .product-price {
-    color: #111;
+    color: #00A699;
     padding: 2px 0;
     font-weight: 600;
 
@@ -291,7 +291,7 @@ footer{
 
 
 .container{
-    max-width: 960px;
+    max-width: 1080px;
     margin: 0px auto;
 }  
 #header{
@@ -332,7 +332,7 @@ nav{
 }
 #main-menu li a{
     color: #f8f8f8;
-    display: block;
+    display: flex;
     padding: 0px 40px;
     text-decoration: none;
     font-size: 20px;
@@ -358,7 +358,7 @@ nav{
     border-bottom: 1px solid #434343;
 }
 #main-menu ul.sub-menu li:hover a{
-    border-bottom: 1px solid #d77e19; 
+    border-bottom: 1px solid #00A699; 
 }
 #main-menu ul.sub-menu li:last-child a{
     border: none;
@@ -367,7 +367,11 @@ nav{
     color: #eef8ff;
 }
 #main-menu li:hover a{
-    color:#000;
+    color:#00A699;
 };
+
+
+
+
 
 /*---------------------------------------------*/

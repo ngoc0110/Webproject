@@ -5,7 +5,7 @@ body {
     font-family:initial;
 } 
 
-/*---------------------------------------------*/
+
 
 
 
@@ -62,7 +62,7 @@ body {
 
 }
 
-/*---------------------------------------------*/
+
 .new {
     font-size: 32px;
     padding: 10px 20px;
@@ -293,7 +293,7 @@ footer{
 
 
 .container{
-    max-width: 960px;
+    max-width: 1080px;
     margin: 0px auto;
 }  
 #header{
