@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 body {
     margin: 0;
@@ -56,11 +57,14 @@ body {
     font-size: 18px; 
 }
 
+=======
+>>>>>>> 030ab136c29454ddba32c12e4ef9428238f2a7bb
 * {
     padding: 0;
     margin: 0;
 
 }
+<<<<<<< HEAD
 
 
 .new {
@@ -75,16 +79,17 @@ body {
     font-family: initial;
     border-radius: 40px;
 }
+=======
+>>>>>>> 030ab136c29454ddba32c12e4ef9428238f2a7bb
 body {
     font-size: 14px;
     color: #111;
     line-height: 1.15;
 }
-
-.products {
-    margin-top: 120px;
+#wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
 }
-
 h3 {
     color: #111;
     padding: 10px 20px;
@@ -102,7 +107,6 @@ ul.products {
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
-    
 }
 ul.products li {
     flex-basis: 25%;
@@ -133,7 +137,7 @@ ul.products li .product-top a.buy-now {
     text-decoration: none;
     text-align: center;
     display: block;
-    background-color: #B99470;
+    background-color: #446084;
     color: #fff;
     padding: 10px 0;
     position: absolute;
@@ -161,7 +165,7 @@ ul.products li .product-inf a.product-cat {
 
 }
 ul.products li .product-inf a.product-name {
-    color: #00A699;
+    color: #334862;
     padding: 3px 0;
 
 }
@@ -170,6 +174,7 @@ ul.products li .product-inf .product-price {
     padding: 2px 0;
     font-weight: 600;
 
+<<<<<<< HEAD
 }
 
 
@@ -373,3 +378,6 @@ nav{
 };
 
 /*---------------------------------------------*/
+=======
+}
+>>>>>>> 030ab136c29454ddba32c12e4ef9428238f2a7bb
