@@ -1,12 +1,10 @@
-<<<<<<< HEAD
-
 body {
     margin: 0;
     padding: 0;
     font-family:initial;
 } 
 
-
+/*---------------------------------------------*/
 
 
 
@@ -57,16 +55,13 @@ body {
     font-size: 18px; 
 }
 
-=======
->>>>>>> 030ab136c29454ddba32c12e4ef9428238f2a7bb
 * {
     padding: 0;
     margin: 0;
 
 }
-<<<<<<< HEAD
 
-
+/*---------------------------------------------*/
 .new {
     font-size: 32px;
     padding: 10px 20px;
@@ -79,17 +74,16 @@ body {
     font-family: initial;
     border-radius: 40px;
 }
-=======
->>>>>>> 030ab136c29454ddba32c12e4ef9428238f2a7bb
 body {
     font-size: 14px;
     color: #111;
     line-height: 1.15;
 }
-#wrapper {
-    max-width: 1170px;
-    margin: 0 auto;
+
+.products {
+    margin-top: 120px;
 }
+
 h3 {
     color: #111;
     padding: 10px 20px;
@@ -107,6 +101,7 @@ ul.products {
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
+
 }
 ul.products li {
     flex-basis: 25%;
@@ -137,7 +132,7 @@ ul.products li .product-top a.buy-now {
     text-decoration: none;
     text-align: center;
     display: block;
-    background-color: #446084;
+    background-color: #B99470;
     color: #fff;
     padding: 10px 0;
     position: absolute;
@@ -165,7 +160,7 @@ ul.products li .product-inf a.product-cat {
 
 }
 ul.products li .product-inf a.product-name {
-    color: #334862;
+    color: #00A699;
     padding: 3px 0;
 
 }
@@ -174,7 +169,6 @@ ul.products li .product-inf .product-price {
     padding: 2px 0;
     font-weight: 600;
 
-<<<<<<< HEAD
 }
 
 
@@ -191,7 +185,7 @@ footer{
     padding: 30px 0 30px;
     font-size: 13px;
     line-height: 20px;
-    
+
 }
 .row{
     width: 85%;
@@ -200,7 +194,7 @@ footer{
     flex-wrap: wrap;
     align-items:flex-start;
     justify-content: space-around;
-    
+
 }
 .col{
     color: #fff;
@@ -209,7 +203,7 @@ footer{
     flex: 1; 
     padding: 0 10px; 
     align-items: center;
-    
+
 }
 .col h3{
     align-items: center;
@@ -241,7 +235,7 @@ footer{
     font-size: 10px;
     padding: 0; 
     margin: 0;
-    
+
 }
 .email-input {
     display: flex;
@@ -286,7 +280,7 @@ footer{
 .footer-payment ul{
     display: flex;
     margin: 10px 0;
-    
+
 }
 
 
@@ -304,13 +298,13 @@ footer{
 #header{
     background-color: #434343;       
     width: 100%;
-    
+
     top: 0;
     border-bottom: 2px solid #fff;
     position: fixed;
     z-index: 9999;
 }    
-       
+
 nav{
     display: flex;
     justify-content:space-between;
@@ -319,7 +313,7 @@ nav{
 }
 #logo{
     padding: 10px 0px;
-    
+
 }
 #logo img{
     width: auto;
@@ -330,12 +324,12 @@ nav{
     list-style: none;
     margin: 0;
     padding: 0;
-   
+
 }
 
 #main-menu li{
     position: relative;
-    
+
 }
 #main-menu li a{
     color: #f8f8f8;
@@ -343,8 +337,8 @@ nav{
     padding: 0px 40px;
     text-decoration: none;
     font-size: 20px;
-    
-    
+
+
 }
 #main-menu ul.sub-menu{
     position: absolute;
@@ -354,7 +348,7 @@ nav{
     width: 200px;
     border: 1px solid #434343;
     display: none;
-    
+
 }
 #main-menu li:hover>ul.sub-menu{
     display: block;
@@ -376,8 +370,3 @@ nav{
 #main-menu li:hover a{
     color:#000;
 };
-
-/*---------------------------------------------*/
-=======
-}
->>>>>>> 030ab136c29454ddba32c12e4ef9428238f2a7bb
